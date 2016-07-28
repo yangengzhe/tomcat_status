@@ -10,6 +10,8 @@ import java.net.URL;
 import java.sql.Time;
 import java.sql.Timestamp;
 import java.util.Date;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.monitor.common.util.parseXML;
 import com.monitor.pojo.connectorPojo;
@@ -102,4 +104,7 @@ public class status {
        }
        return result;
    }
+   
+   
+   
 }
